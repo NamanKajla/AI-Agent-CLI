@@ -1,0 +1,19 @@
+{
+  "name": "ai-agent-cli",
+  "version": "1.0.0",
+  "description": "Conversational terminal agent that builds Scaler-style static pages via a multi-step tool loop",
+  "type": "module",
+  "main": "src/agent.js",
+  "scripts": {
+    "start": "node src/agent.js",
+    "agent": "node src/agent.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.77.0"
+  }
+}
